@@ -28,13 +28,13 @@ The applications were built on the macintosh OS and have not been tested on any 
 ## Built With
 This project has been built using the following frameworks.
 
-###Frameworks / Plugins / Dependencies
+### Frameworks / Plugins / Dependencies
 
 * [Python 3](https://www.python.org/download/releases/3.0/)
 * [Selenium for python](https://selenium-python.readthedocs.io)
 * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-###Websites used
+### Websites used
 
 * [Futbin](https://www.futbin.com)
 * [FUT21 web app](https://www.ea.com/de-de/fifa/ultimate-team/web-app/)
@@ -95,20 +95,20 @@ python3 gather_player_data.py [version] [position] [nation] [league] [min pace] 
 
 Please note that it is crucial to give a correct value for each of the selectors - all possible values are explained here:
 
-_Version_
+### Version
 * all_versions
 * icons
 * Gold
 * Gold_IF
 * All Specials
 
-_Position_
+### Position
 * all_positions
 * Attackers
 * Midfielders
 * Defenders
 
-_Nation_
+### Nation
 * all_nations
 * Brazil
 * Spain
@@ -119,7 +119,7 @@ _Nation_
 * Portugal
 * Argentina
 
-_League_
+### League
 * all_leagues
 * Premier_League
 * LaLiga_Santander
@@ -127,13 +127,13 @@ _League_
 * Bundesliga
 * Ligue_1
 
-_Minimum pace_
+### Minimum pace
 * Any number from 1 to 99
 
-_Minimum price_
+### Minimum price
 * Any number from 0 to 15,000,000
 
-_Maximum price_
+### Maximum price
 * Any number from 0 to 15,000,000
 
 
@@ -173,4 +173,4 @@ No license.
 
 Alexander Nederegger - alexander@nederegger.de
 
-Project Link: [https://github.com/alex1ned/travel_planner](https://github.com/alex1ned/travel_planner)
+Project Link: [https://github.com/alex1ned/travel_planner](https://github.com/alex1ned/fifa21_bot)
