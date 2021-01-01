@@ -1,5 +1,5 @@
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+# Table of Contents
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
@@ -13,7 +13,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 This project attempts to trade on the web app of FIFA21 to increase the user's coins. The program is a two-fold command line operated application.
 
@@ -25,16 +25,16 @@ The applications were built on the macintosh OS and have not been tested on any 
 <!-- ![AnImage](./readme_images/webpage.png) -->
 
 
-### Built With
+## Built With
 This project has been built using the following frameworks.
 
-#####Frameworks / Plugins / Dependencies
+####Frameworks / Plugins / Dependencies
 
 * [Python 3](https://www.python.org/download/releases/3.0/)
 * [Selenium for python](https://selenium-python.readthedocs.io)
 * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-#####Websites used
+####Websites used
 
 * [Futbin](https://www.futbin.com)
 * [FUT21 web app](https://www.ea.com/de-de/fifa/ultimate-team/web-app/)
@@ -42,18 +42,18 @@ This project has been built using the following frameworks.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+# Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+## Prerequisites
 
 The application requires you to have the following installed:
 * Python 3
 * Pip or pip3
 * Chrome
 
-### Installation
+## Installation
 
 1. Clone the repo
 ```
@@ -81,11 +81,11 @@ pip3 install selenium
 Alternatively the you can find the documentation of selenium [here](https://selenium-python.readthedocs.io).
 
 
-### How to use
+## How to use
 
 The below explains how to use the two applications once you have successfully completed the installation above.
 
-####Retrieve player stats from futbin
+###Retrieve player stats from futbin
 
 With your terminal navigate to this project's folder and move into the folder **futbin**. The application is excuted using `python3 gather_player_data.py` followed by a chain of selectors. The possible values of selectors are explained below.
 
@@ -95,20 +95,20 @@ python3 gather_player_data.py [version] [position] [nation] [league] [min pace] 
 
 Please note that it is crucial to give a correct value for each of the selectors - all possible values are explained here:
 
-#####Version
+####Version
 * all_versions
 * icons
 * Gold
 * Gold_IF
 * All Specials
 
-#####Position
+####Position
 * all_positions
 * Attackers
 * Midfielders
 * Defenders
 
-#####Nation
+####Nation
 * all_nations
 * Brazil
 * Spain
@@ -119,7 +119,7 @@ Please note that it is crucial to give a correct value for each of the selectors
 * Portugal
 * Argentina
 
-#####League
+####League
 * all_leagues
 * Premier_League
 * LaLiga_Santander
@@ -127,25 +127,25 @@ Please note that it is crucial to give a correct value for each of the selectors
 * Bundesliga
 * Ligue_1
 
-#####Minimum pace
+####Minimum pace
 * Any number from 1 to 99
 
-#####Minimum price
+####Minimum price
 * Any number from 0 to 15,000,000
 
-#####Maximum price
+####Maximum price
 * Any number from 0 to 15,000,000
 
 
 
 
 
-####Start trading
+###Start trading
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+# Contributing
 
 Any contributions you make are **greatly appreciated**.
 
@@ -162,14 +162,14 @@ Suggestions for possible **features to add** (w/o order of relevance):
 * Update the README file to further clarify the installation and user guilde.
 
 <!-- LICENSE -->
-## License
+# License
 
 No license.
 
 
 
 <!-- CONTACT -->
-## Contact
+# Contact
 
 Alexander Nederegger - alexander@nederegger.de
 
