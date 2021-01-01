@@ -85,7 +85,7 @@ Alternatively the you can find the documentation of selenium [here](https://sele
 
 The below explains how to use the two applications once you have successfully completed the installation above.
 
-**Retrieve player stats from futbin**
+### Retrieve player stats from futbin
 
 With your terminal navigate to this project's folder and move into the folder **futbin**. The application is excuted using `python3 gather_player_data.py` followed by a chain of selectors. The possible values of selectors are explained below.
 
@@ -95,20 +95,20 @@ python3 gather_player_data.py [version] [position] [nation] [league] [min pace] 
 
 Please note that it is crucial to give a correct value for each of the selectors - all possible values are explained here:
 
-### Version
+##### Version
 * all_versions
 * icons
 * Gold
 * Gold_IF
-* All Specials
+* All_Specials
 
-### Position
+##### Position
 * all_positions
 * Attackers
 * Midfielders
 * Defenders
 
-### Nation
+##### Nation
 * all_nations
 * Brazil
 * Spain
@@ -119,28 +119,29 @@ Please note that it is crucial to give a correct value for each of the selectors
 * Portugal
 * Argentina
 
-### League
+##### League
 * all_leagues
 * Premier_League
 * LaLiga_Santander
 * Serie_A
 * Bundesliga
-* Ligue_1
+* Ligue_1_Conforama
+* Serie_A_TIM
 
-### Minimum pace
+##### Minimum pace
 * Any number from 1 to 99
 
-### Minimum price
+##### Minimum price
 * Any number from 0 to 15,000,000
 
-### Maximum price
+##### Maximum price
 * Any number from 0 to 15,000,000
 
 
 
 
 
-**Start trading**
+### Start trading
 
 
 
