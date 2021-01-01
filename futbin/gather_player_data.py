@@ -118,9 +118,9 @@ for key, value in playerDatabase.items():
     value.append(price.text)
     value.append(cardName)
     sleep(1)
-    i += 1
-    if i == 4:
-        break
+    # i += 1
+    # if i == 4:
+    #     break
 
 # Print out first 5 items to see how it is formatted
 i = 0
@@ -128,9 +128,9 @@ for key, value in playerDatabase.items():
     value[-2] = int(value[-2].replace(',', ''))
     value[-2] = int(value[-2])
     print(value)
-    i += 1
-    if i == 4:
-        break
+    # i += 1
+    # if i == 4:
+    #     break
 
 
 # --- Quit browser at the end
