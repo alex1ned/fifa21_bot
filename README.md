@@ -28,13 +28,13 @@ The applications were built on the macintosh OS and have not been tested on any 
 ## Built With
 This project has been built using the following frameworks.
 
-####Frameworks / Plugins / Dependencies
+###Frameworks / Plugins / Dependencies
 
 * [Python 3](https://www.python.org/download/releases/3.0/)
 * [Selenium for python](https://selenium-python.readthedocs.io)
 * [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
-####Websites used
+###Websites used
 
 * [Futbin](https://www.futbin.com)
 * [FUT21 web app](https://www.ea.com/de-de/fifa/ultimate-team/web-app/)
@@ -85,7 +85,7 @@ Alternatively the you can find the documentation of selenium [here](https://sele
 
 The below explains how to use the two applications once you have successfully completed the installation above.
 
-###Retrieve player stats from futbin
+**Retrieve player stats from futbin**
 
 With your terminal navigate to this project's folder and move into the folder **futbin**. The application is excuted using `python3 gather_player_data.py` followed by a chain of selectors. The possible values of selectors are explained below.
 
@@ -95,20 +95,20 @@ python3 gather_player_data.py [version] [position] [nation] [league] [min pace] 
 
 Please note that it is crucial to give a correct value for each of the selectors - all possible values are explained here:
 
-####Version
+_Version_
 * all_versions
 * icons
 * Gold
 * Gold_IF
 * All Specials
 
-####Position
+_Position_
 * all_positions
 * Attackers
 * Midfielders
 * Defenders
 
-####Nation
+_Nation_
 * all_nations
 * Brazil
 * Spain
@@ -119,7 +119,7 @@ Please note that it is crucial to give a correct value for each of the selectors
 * Portugal
 * Argentina
 
-####League
+_League_
 * all_leagues
 * Premier_League
 * LaLiga_Santander
@@ -127,20 +127,20 @@ Please note that it is crucial to give a correct value for each of the selectors
 * Bundesliga
 * Ligue_1
 
-####Minimum pace
+_Minimum pace_
 * Any number from 1 to 99
 
-####Minimum price
+_Minimum price_
 * Any number from 0 to 15,000,000
 
-####Maximum price
+_Maximum price_
 * Any number from 0 to 15,000,000
 
 
 
 
 
-###Start trading
+**Start trading**
 
 
 
